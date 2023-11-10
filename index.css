@@ -1,0 +1,55 @@
+/* animations.css */
+
+/* Animation 1: Floating Element */
+.floating {
+    width: 50px;
+    height: 50px;
+    background-color: #3498db;
+    border-radius: 50%;
+    animation: float 2s ease-in-out infinite alternate;
+  }
+  
+  @keyframes float {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-20px);
+    }
+  }
+  
+  /* Animation 2: Pulse Effect */
+  .pulse {
+    width: 50px;
+    height: 50px;
+    background-color: #2ecc71;
+    border-radius: 50%;
+    animation: pulse 1s infinite alternate;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.2);
+    }
+  }
+  
+  /* Animation 3: Rotating Square */
+  .rotating-square {
+    width: 50px;
+    height: 50px;
+    background-color: #e74c3c;
+    animation: rotateSquare 3s linear infinite;
+  }
+  
+  @keyframes rotateSquare {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
